@@ -22,10 +22,9 @@ jobs:
   build-and-push:
     strategy:
       matrix:
-        image_name: ["student-service","school-service"]
+        image_name: ["student-service"]
     name: Build and Push
     runs-on: ubuntu-latest
-    environment: staging
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
