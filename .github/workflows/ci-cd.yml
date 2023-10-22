@@ -25,7 +25,6 @@ jobs:
         image_name: ["student-service"]
     name: Build and Push
     runs-on: ubuntu-latest
-    environment: staging
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
