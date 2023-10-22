@@ -22,7 +22,7 @@ jobs:
   build-and-push:
     strategy:
       matrix:
-        image_name: ["school-service"]
+        image_name: ["school-service","student-service"]
     name: Build and Push
     runs-on: ubuntu-latest
     steps:
